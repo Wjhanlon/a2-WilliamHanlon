@@ -10,9 +10,54 @@
     <link rel='icon' href='data:;base64,iVBORw0KGgo=' />
   </head>
   <body>
-    <form>
-      <input type='text' id='yourname' value='your name here'>
-      <button>submit</button>
+    <div class = 'form' >
+      <h2>Equipment Request Form</h2>
+      <form>
+        <input type='hidden' id='request-id' value='' />
+
+        <label for='equipment'>Equipment Needed: </label>
+        <input type='text' id='equipment' required />
+
+        <label for='name'>Requester: </label>
+        <input type='text' id='name' required />
+
+        <label for='quantity'>Quantity: </label>
+        <input type='number' id='quantity' required />
+
+        <label for='urgent'>Mark if Urgent:</label>
+        <input type='checkbox' id='urgent' required />
+
+        <label for='date'>Date Needed By:</label>
+        <input type="date" id='date' required />
+
+        <label for='notes'>Notes or Other Information:</label>
+        <textarea id='notes' rows="3" placeholder="..." required></textarea>
+
+        <input type='reset' value='Clear Fields' />
+        <input type='submit' value='Add Request' />
+        <input type='button' value='Cancel Edit' id='cancel' hidden />
     </form>
+    </div>
+    <div class = 'results' >
+      <p>Items Requested</p>
+      <table id='results-table'>
+        <thead>
+          <tr>
+            <th>Equipment</th>
+            <th>Requester</th>
+            <th>Quantity</th>
+            <th>Urgent</th>
+            <th>Date Needed</th>
+            <th>Notes</th>
+            <th>Priority</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id='results-body'>
+        </tbody>
+      </table>
+      <p id='empty-state'>No Requests yet</p>
+    </div>
+
   </body>
 </html>
