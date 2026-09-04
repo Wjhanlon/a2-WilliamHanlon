@@ -3,7 +3,7 @@ Assignment 2 - Short Stack: Basic Two-tier Web Application using HTML/CSS/JS and
 ---
 William's Equipment Request Form
 Include a very brief summary of your project here. Be sure to include the CSS positioning technique you used, and any required instructions to use your application.
-A equipment request form with a server-side list of all requests in the system. I used flexbox throughout the app for aligning the elements. To use the application go to: , and submit a request on the left side of the app. I also use element selectors, id selectors, and class selectors to style the website in a stylesheet. 
+A equipment request form with a server-side list of all requests in the system. I used flexbox throughout the app for aligning the elements. To use the application go to: https://a2-williamhanlon.onrender.com/, and submit a request on the left side of the app. I also use element selectors, id selectors, and class selectors to style the website in a stylesheet. 
 
 ## Technical Achievements
 - **Tech Achievement 1**: 
