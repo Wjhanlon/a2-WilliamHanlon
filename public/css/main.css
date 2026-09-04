@@ -41,12 +41,12 @@ input[type='reset'] {
 }
 
 label {
-  display: block;
+  display: flex;
   margin-top: 0.75rem;
 }
 
 label[for='urgent'] {
-  display: inline-block;
+  display: inline-flex;
   margin-top: 0.75rem;
 }
 
@@ -60,6 +60,11 @@ input[type='submit']:hover {
 }
 
 input[type='reset']:hover {
+  background: #2e6fa3;
+  color: white;
+}
+
+input[type='button']:hover {
   background: #2e6fa3;
   color: white;
 }
