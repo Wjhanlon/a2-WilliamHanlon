@@ -55,6 +55,9 @@ input[type='submit'] {
   color: white;
   border: none;
 }
+input[type='submit']:hover {
+  opacity: 0.9;
+}
 
 table {
   width: 100%;
@@ -69,4 +72,18 @@ th, td {
 
 th {
   background: #eaf2fa;
+}
+
+#results-table button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 0.0625rem solid #dce7f2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#results-table button:hover {
+  background: #2e6fa3;
+  color: white;
 }
