@@ -1,9 +1,5 @@
 Assignment 2 - Short Stack: Basic Two-tier Web Application using HTML/CSS/JS and Node.js  
 
-4. Deploy your project to Render, and fill in the appropriate fields in your package.json file.
-
-
-
 ---
 William's Equipment Request Form
 Include a very brief summary of your project here. Be sure to include the CSS positioning technique you used, and any required instructions to use your application.
